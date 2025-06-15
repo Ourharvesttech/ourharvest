@@ -33,7 +33,7 @@ const App = () => {
                   <About setPlayState={setPlayState} />
                 </div>
                 <div id="campus">
-                  <Title subTitle='Gallery' title='Campus Photos' />
+                  <Title subTitle='Gallery' title='Project Photos' />
                   <Campus />
                 </div>
                 <div id="news">

@@ -17,7 +17,7 @@ const Contact = () => {
 
       // ------Enter your web3forms access key below-------
       
-      formData.append("access_key", "95dfc5a5-13b8-40c5-be16-b0306ed8a0f5");
+      formData.append("access_key", "71e4d8b1-a339-4725-b015-af16d43c74c3");
   
       const res = await fetch("https://api.web3forms.com/submit", {
         method: "POST",
@@ -41,7 +41,7 @@ const Contact = () => {
         <h3>Send us a message <img src={msg_icon} alt="" /></h3>
         <p>Feel free to reach out through contact form or find our contact information below. Your feedback, questions, and suggestions are important to us as we strive to provide exceptional service.</p>
         <ul>
-            <li><img src={mail_icon} alt="" />OurHarvestTech123@outlook.com</li>
+            <li><img src={mail_icon} alt="" />OurHarvestTech11@outlook.com</li>
             <li><img src={phone_icon} alt="" />+1 123-456-7890</li>
             <li><img src={location_icon} alt="" />Address<br/> State, zip, country</li>
         </ul>

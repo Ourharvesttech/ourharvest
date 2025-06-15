@@ -1,0 +1,9 @@
+@echo off
+echo Starting MongoDB...
+start mongod --dbpath="C:\data\db"
+
+echo Waiting for MongoDB to start...
+timeout /t 5
+
+echo Starting server...
+npm run dev 
